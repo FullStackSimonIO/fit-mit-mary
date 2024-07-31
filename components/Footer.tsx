@@ -7,11 +7,11 @@ const Footer = () => {
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-            <a href="https://flowbite.com/" className="flex items-center">
+            <a href="#" className="flex items-center">
               <Image
-                src="https://flowbite.com/docs/images/logo.svg"
+                src=""
                 className="h-8 me-3"
-                alt="FlowBite Logo"
+                alt="Logo"
                 width={32}
                 height={32}
               />
@@ -23,27 +23,21 @@ const Footer = () => {
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
               <h2 className="mb-6 text-sm font-semibold text-white uppercase">
-                Resourcen
+                Resourcen:
               </h2>
-              <ul className="text-gray-500 dark:text-gray-400 font-medium">
+              <ul className="text-gray-50 font-medium">
                 <li className="mb-2">
-                  <a href="https://flowbite.com/" className="hover:underline">
+                  <a href="#" className="hover:underline">
                     Über Mich
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a
-                    href="https://tailwindcss.com/"
-                    className="hover:underline"
-                  >
+                  <a href="#" className="hover:underline">
                     Angebote
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a
-                    href="https://tailwindcss.com/"
-                    className="hover:underline"
-                  >
+                  <a href="#" className="hover:underline">
                     Kursübersicht
                   </a>
                 </li>
@@ -51,34 +45,11 @@ const Footer = () => {
             </div>
             <div>
               <h2 className="mb-6 text-sm font-semibold text-white uppercase ">
-                Follow us
+                Rechtliches:
               </h2>
-              <ul className="text-gray-500 dark:text-gray-400 font-medium">
+              <ul className="text-gray-50 font-medium">
                 <li className="mb-2">
-                  <a
-                    href="https://github.com/themesberg/flowbite"
-                    className="hover:underline "
-                  >
-                    Github
-                  </a>
-                </li>
-                <li className="mb-2">
-                  <a
-                    href="https://discord.gg/4eeurUVvTy"
-                    className="hover:underline"
-                  >
-                    Discord
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h2 className="mb-6 text-sm font-semibold uppercase text-white">
-                Rechtliches
-              </h2>
-              <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                <li className="mb-2">
-                  <a href="#" className="hover:underline">
+                  <a href="#" className="hover:underline ">
                     Nutzungsbedingungen
                   </a>
                 </li>
@@ -94,13 +65,35 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
+            <div>
+              <h2 className="mb-6 text-sm font-semibold uppercase text-white">
+                Kontakt:
+              </h2>
+              <ul className="text-gray-50 font-medium">
+                <li className="mb-2">
+                  <a href="#" className="hover:underline">
+                    Facebook
+                  </a>
+                </li>
+                <li className="mb-2">
+                  <a href="#" className="hover:underline">
+                    Instagram
+                  </a>
+                </li>
+                <li className="mb-2">
+                  <a href="#" className="hover:underline">
+                    Kontakt
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto  lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-50 sm:text-center ">
             © 2024{" "}
-            <a href="https://flowbite.com/" className="hover:underline">
+            <a href="#" className="hover:underline">
               FullStackSimon™
             </a>
             . All Rights Reserved.
