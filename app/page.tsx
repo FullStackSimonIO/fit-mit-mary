@@ -3,9 +3,10 @@ import { LayoutGrid } from "@/components/ui/layout-grid";
 import Navbar from "@/components/Navbar";
 import React from "react";
 
-import { InfiniteMovingCertificates } from "@/components/Certifications";
 import Info from "@/components/Info";
 import LandingOffers from "@/components/LandingOffers";
+import Footer from "@/components/Footer";
+import { ParallaxScrollSecondDemo } from "@/components/ParallaxImageContainer";
 
 const Home = () => {
   return (
@@ -14,6 +15,8 @@ const Home = () => {
       <Hero />
       <Info />
       <LandingOffers />
+      <ParallaxScrollSecondDemo />
+      <Footer />
     </div>
   );
 };

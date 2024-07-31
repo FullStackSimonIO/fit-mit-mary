@@ -2,15 +2,38 @@ import React from "react";
 
 const LandingOffers = () => {
   return (
-    <section className="bg-[#EEFFF3] dark:bg-gray-900">
+    <section className="bg-[#EEFFF3]">
       <div className="py-8 px-4 mx-auto max-w-screen-xl text-center sm:py-16 lg:px-6">
-        <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-          The most trusted cryptocurrency platform
+        <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-[#0F3B1C]">
+          Für jeden etwas dabei
         </h2>
         <p className="text-gray-500 sm:text-xl dark:text-gray-400">
           Here are a few reasons why you should choose Flowbite
         </p>
         <div className="mt-8 lg:mt-12 space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+          <div>
+            <svg
+              className="mx-auto mb-4 w-12 h-12 text-primary-600 dark:text-primary-500"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"></path>
+              <path
+                fill-rule="evenodd"
+                d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            <h3 className="mb-2 text-xl font-bold text-[#0F3B1C]">
+              Ernährungsberatung
+            </h3>
+            <p className="mb-4 text-gray-500 dark:text-gray-400">
+              Ernährungsberatung optimiert die Gesundheit durch maßgeschneiderte
+              Ernährungspläne, fördert gesunde Gewohnheiten und unterstützt
+              Gewichtsmanagement sowie Wohlbefinden.
+            </p>
+          </div>
           <div>
             <svg
               className="mx-auto mb-4 w-12 h-12 text-primary-600 dark:text-primary-500"
@@ -34,71 +57,12 @@ const LandingOffers = () => {
                 clip-rule="evenodd"
               ></path>
             </svg>
-            <h3 className="mb-2 text-xl font-bold dark:text-white">
-              Secure storage
-            </h3>
+            <h3 className="mb-2 text-xl font-bold text-[#0F3B1C]">Yoga</h3>
             <p className="mb-4 text-gray-500 dark:text-gray-400">
-              We store the vast majority of the digital assets in secure offline
-              storage.
+              Yoga vereint Körper und Geist, fördert Flexibilität, Kraft und
+              innere Ruhe. Perfekt für Stressabbau und ganzheitliches
+              Wohlbefinden.
             </p>
-            <a
-              href="#"
-              className="inline-flex items-center text-sm font-medium text-primary-600 hover:text-primary-700 dark:text-primary-500 dark:hover:text-primary-400"
-            >
-              Learn how to keep your funds safe{" "}
-              <svg
-                className="ml-1 w-5 h-5"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-            </a>
-          </div>
-          <div>
-            <svg
-              className="mx-auto mb-4 w-12 h-12 text-primary-600 dark:text-primary-500"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"></path>
-              <path
-                fill-rule="evenodd"
-                d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z"
-                clip-rule="evenodd"
-              ></path>
-            </svg>
-            <h3 className="mb-2 text-xl font-bold dark:text-white">
-              Insurance
-            </h3>
-            <p className="mb-4 text-gray-500 dark:text-gray-400">
-              Flowbite maintains crypto insurance and all USD cash balances are
-              covered.
-            </p>
-            <a
-              href="#"
-              className="inline-flex items-center text-sm font-medium text-primary-600 hover:text-primary-700 dark:text-primary-500 dark:hover:text-primary-400"
-            >
-              Learn how your crypto is covered{" "}
-              <svg
-                className="ml-1 w-5 h-5"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-            </a>
           </div>
           <div>
             <svg
@@ -113,31 +77,14 @@ const LandingOffers = () => {
                 clip-rule="evenodd"
               ></path>
             </svg>
-            <h3 className="mb-2 text-xl font-bold dark:text-white">
-              Best practices
+            <h3 className="mb-2 text-xl font-bold text-[#0F3B1C]">
+              Sporttherapie
             </h3>
             <p className="mb-4 text-gray-500 dark:text-gray-400">
-              Flowbite marketplace supports a variety of the most popular
-              digital currencies.
+              Sporttherapie verbessert Gesundheit durch gezielte Bewegung,
+              rehabilitiert Verletzungen, stärkt den Körper und fördert
+              langfristiges Wohlbefinden.
             </p>
-            <a
-              href="#"
-              className="inline-flex items-center text-sm font-medium text-primary-600 hover:text-primary-700 dark:text-primary-500 dark:hover:text-primary-400"
-            >
-              How to implement best practices{" "}
-              <svg
-                className="ml-1 w-5 h-5"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-            </a>
           </div>
         </div>
       </div>
