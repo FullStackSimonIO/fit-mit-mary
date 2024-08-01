@@ -21,7 +21,7 @@ const Navbar = () => {
             width={32}
             height={32}
           />
-          <span className="self-center text-[#2D4542] text-2xl font-semibold whitespace-nowrap">
+          <span className="self-center text-[#2D4542] text-sm lg:text-2xl  font-semibold whitespace-nowrap">
             FIT-MIT-MARY
           </span>
         </a>
