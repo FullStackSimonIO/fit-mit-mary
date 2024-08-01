@@ -23,7 +23,6 @@ const YogaOffers = () => {
                 key={offer.id}
                 className="flex flex-col p-6 mx-auto max-w-lg text-center text-primary-backgroundGreen bg-primary-buttonGreen rounded-lg border border-gray-200 shadow-sm"
               >
-                <BackgroundBeams />
                 <h3 className="mb-4 text-2xl font-semibold">{offer.title}</h3>
                 <p className="text-primary-backgroundGreen text-light sm:text-lg ">
                   {offer.description}
@@ -34,6 +33,7 @@ const YogaOffers = () => {
                 </div>
 
                 {/* List */}
+
                 <ul role="list" className="mb-8 space-y-4 text-left">
                   <li className="flex items-center space-x-3">
                     <svg
@@ -126,6 +126,7 @@ const YogaOffers = () => {
                 >
                   Get started
                 </a>
+                <BackgroundBeams />
               </div>
             ))}
           </div>
