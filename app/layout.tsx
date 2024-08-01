@@ -19,12 +19,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <MapProvider>
-        <body className={`${inter.className}`}>
-          {children}
-          <Analytics />
-        </body>
-      </MapProvider>
+      <body className={`${inter.className}`}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }

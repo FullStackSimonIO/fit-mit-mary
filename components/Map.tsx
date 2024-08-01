@@ -17,7 +17,7 @@ export const defaultMapContainerStyle = {
 const MapComponent = () => {
   return (
     <div className="w-full">
-      <GoogleMap co mapContainerStyle={defaultMapContainerStyle}></GoogleMap>
+      <GoogleMap mapContainerStyle={defaultMapContainerStyle}></GoogleMap>
     </div>
   );
 };
