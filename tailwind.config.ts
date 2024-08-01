@@ -9,6 +9,7 @@ const {
 const config = {
   darkMode: ["class"],
   content: [
+    "./node_modules/flowbite-react/lib/**/*.js",
     "./pages/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
     "./app/**/*.{ts,tsx}",
@@ -88,7 +89,11 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate"), addVariablesForColors],
+  plugins: [
+    require("tailwindcss-animate"),
+    addVariablesForColors,
+    require("flowbite/plugin"),
+  ],
 } satisfies Config;
 
 export default config;

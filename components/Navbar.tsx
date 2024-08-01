@@ -14,13 +14,7 @@ const Navbar = () => {
     <nav className="bg-[#EEFFF3] fixed w-full z-20 top-0 start-0">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <Image
-            src="https://flowbite.com/docs/images/logo.svg"
-            className="h-8"
-            alt="Logo"
-            width={32}
-            height={32}
-          />
+          <Image src="/" className="h-8" alt="Logo" width={32} height={32} />
           <span className="self-center text-[#2D4542] text-sm lg:text-2xl  font-semibold whitespace-nowrap">
             FIT-MIT-MARY
           </span>
@@ -72,7 +66,7 @@ const Navbar = () => {
           <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-[#2D4542] md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-[#EEFFF3]">
             <li>
               <motion.a
-                href="#"
+                href="/"
                 className="block py-2 px-3 text-white rounded md:text-[#2D4542] md:p-0"
                 aria-current="page"
                 whileHover={{
@@ -91,7 +85,7 @@ const Navbar = () => {
             </li>
             <li>
               <motion.a
-                href="#"
+                href="/ueber-mich"
                 className="block py-2 px-3 text-white rounded md:text-[#2D4542] md:p-0"
                 whileHover={{
                   scale: 1.1,
@@ -104,12 +98,12 @@ const Navbar = () => {
                   transition: { duration: 0.3 },
                 }}
               >
-                About
+                Über Mich
               </motion.a>
             </li>
             <li>
               <motion.a
-                href="#"
+                href="angebote"
                 className="block py-2 px-3 text-white rounded md:text-[#2D4542] md:p-0"
                 whileHover={{
                   scale: 1.1,
@@ -122,12 +116,12 @@ const Navbar = () => {
                   transition: { duration: 0.3 },
                 }}
               >
-                Services
+                Angebote
               </motion.a>
             </li>
             <li>
               <motion.a
-                href="#"
+                href="/kontakt"
                 className="block py-2 px-3 text-white rounded md:text-[#2D4542] md:p-0"
                 whileHover={{
                   scale: 1.1,
@@ -140,7 +134,7 @@ const Navbar = () => {
                   transition: { duration: 0.3 },
                 }}
               >
-                Contact
+                Kontakt
               </motion.a>
             </li>
           </ul>
