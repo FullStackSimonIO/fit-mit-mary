@@ -1,15 +1,15 @@
-import AboutSection from "@/components/AboutSection";
-import AboutSectionSecond from "@/components/AboutSectionSecond";
+import AboutFirst from "@/components/AboutFirst";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import React from "react";
+import AboutSecond from "@/components/AboutSecond";
 
 const page = () => {
   return (
     <div>
       <Navbar />
-      <AboutSection />
-      <AboutSectionSecond />
+      <AboutFirst />
+      <AboutSecond />
       <Footer />
     </div>
   );

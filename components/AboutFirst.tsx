@@ -1,8 +1,9 @@
 import Image from "next/image";
 import React from "react";
 import { Button } from "./ui/moving-border";
+import { aboutFirst } from "@/data";
 
-const AboutSection = () => {
+const AboutFirst = () => {
   return (
     <section className="bg-primary-backgroundGreen antialiased">
       <div className="max-w-screen-xl px-4 py-32 mx-auto lg:px-6 lg:py-24">
@@ -11,8 +12,8 @@ const AboutSection = () => {
             Über Mich:
           </h2>
           <p className="mt-4 text-base font-normal text-gray-800 sm:text-xl ">
-            Flowbite helps you connect with friends, family and communities of
-            people who share your interests.
+            Ich konnte dein Interesse wecken?
+            <br /> Hier findest du mehr Informationen zu meinem Studio und mir.
           </p>
         </div>
 
@@ -37,7 +38,7 @@ const AboutSection = () => {
                 >
                   Mein Yogastudio:
                 </h3>
-                <p className="text-base font-normal text-gray-500 sm:text-lg ">
+                <p className="text-base font-normal text-primary-paragraph sm:text-lg ">
                   Erleben Sie ganzheitliches Wohlbefinden in unserem Yogastudio
                   in Künzing. Unsere erfahrenen Lehrer bieten Yoga für alle
                   Levels an. Finden Sie innere Ruhe und körperliche Stärke.
@@ -51,16 +52,17 @@ const AboutSection = () => {
         <div className="flex flex-col lg:items-center pt-12 lg:flex-row gap-y-8 sm:gap-y-12 lg:gap-x-16 xl:gap-x-24">
           <div className="w-full space-y-6 lg:max-w-lg shrink-0 xl:max-w-2xl">
             <div className="space-y-3">
-              <h3 className="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl ">
-                Mail management system
+              <h3 className="text-3xl font-bold leading-tight text-primary-buttonGreen sm:text-4xl ">
+                Über Mich:
               </h3>
-
-              <p className="text-base font-normal text-gray-500 sm:text-lg ">
-                Flowbite helps you connect with friends, family and communities
-                of people who share your interests. Connecting with your friends
-                and family as well as discovering new ones is easy with features
-                like Groups.
-              </p>
+              {aboutFirst.map((item) => (
+                <p
+                  key={item.id}
+                  className="text-base font-normal text-primary-paragraph sm:text-lg "
+                >
+                  {item.text}
+                </p>
+              ))}
             </div>
           </div>
           <div>
@@ -99,4 +101,4 @@ const AboutSection = () => {
   );
 };
 
-export default AboutSection;
+export default AboutFirst;
