@@ -6,7 +6,7 @@ import React from "react";
 import Info from "@/components/Info";
 import LandingOffers from "@/components/LandingOffers";
 import Footer from "@/components/Footer";
-import { ParallaxScrollSecondDemo } from "@/components/ParallaxImageContainer";
+import { ParallaxImageContainer } from "@/components/ParallaxImageContainer";
 
 const Home = () => {
   return (
@@ -15,7 +15,7 @@ const Home = () => {
       <Hero />
       <Info />
       <LandingOffers />
-      <ParallaxScrollSecondDemo />
+      <ParallaxImageContainer />
       <Footer />
     </div>
   );

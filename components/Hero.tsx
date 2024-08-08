@@ -1,7 +1,8 @@
 "use client";
 import { useScroll, useTransform } from "framer-motion";
 import React from "react";
-import { GoogleGeminiEffect } from "./ui/google-gemini-effect";
+import { GoogleGeminiEffect } from "@/components/ui/google-gemini-effect";
+import { name, description } from "@/data";
 
 export function Hero() {
   const ref = React.useRef(null);
@@ -22,6 +23,8 @@ export function Hero() {
       ref={ref}
     >
       <GoogleGeminiEffect
+        title={name}
+        description={description}
         pathLengths={[
           pathLengthFirst,
           pathLengthSecond,

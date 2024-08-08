@@ -14,7 +14,13 @@ const Navbar = () => {
     <nav className="bg-[#EEFFF3] fixed w-full z-20 top-0 start-0">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <Image src="/" className="h-8" alt="Logo" width={32} height={32} />
+          <Image
+            src=" /assets/logos/logo.svg"
+            className="h-8"
+            alt="Logo"
+            width={32}
+            height={32}
+          />
           <span className="self-center text-[#2D4542] text-sm lg:text-2xl  font-semibold whitespace-nowrap">
             FIT-MIT-MARY
           </span>

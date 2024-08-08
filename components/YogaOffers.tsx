@@ -1,6 +1,9 @@
+"use client";
 import React from "react";
 import { yogaOffers } from "@/data";
 import { BackgroundBeams } from "./ui/background-beam";
+import { BackgroundGradient } from "./ui/background-gradient";
+import { Vortex } from "./ui/vortex";
 
 const YogaOffers = () => {
   return (
@@ -21,7 +24,7 @@ const YogaOffers = () => {
             {yogaOffers.map((offer) => (
               <div
                 key={offer.id}
-                className="flex flex-col p-6 mx-auto max-w-lg text-center text-primary-backgroundGreen bg-primary-buttonGreen rounded-lg border border-gray-200 shadow-sm"
+                className="rounded-[22px] max-w-sm p-4 sm:p-10 text-primary-backgroundGreen bg-primary-buttonGreen "
               >
                 <h3 className="mb-4 text-2xl font-semibold">{offer.title}</h3>
                 <p className="text-primary-backgroundGreen text-light sm:text-lg ">
@@ -126,7 +129,6 @@ const YogaOffers = () => {
                 >
                   Get started
                 </a>
-                <BackgroundBeams />
               </div>
             ))}
           </div>
