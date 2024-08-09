@@ -21,24 +21,24 @@ const ContactForm = () => {
             >
               <div>
                 <label className="block mb-2 text-sm font-medium text-primary-buttonGreen ">
-                  Vorname
+                  Vorname:
                 </label>
                 <input
                   type="text"
                   id="first-name"
-                  className="block p-3 w-full text-sm text-primary-backgroundGreen bg-primary-buttonGreen rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 "
+                  className="block p-3 w-full placeholder:text-primary-backgroundGreen text-sm text-primary-backgroundGreen bg-primary-buttonGreen rounded-lg border border-primary-paragraph shadow-sm focus:ring-primary-paragraph focus:border-primary-paragraph "
                   placeholder="Sabine"
                   required
                 />
               </div>
               <div>
                 <label className="block mb-2 text-sm font-medium text-primary-buttonGreen ">
-                  Nachname
+                  Nachname:
                 </label>
                 <input
                   type="text"
                   id="last-name"
-                  className="block p-3 w-full text-sm text-primary-backgroundGreen bg-primary-buttonGreen rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500"
+                  className="block p-3 w-full text-sm placeholder:text-primary-backgroundGreen text-primary-backgroundGreen bg-primary-buttonGreen rounded-lg border border-gray-300 shadow-sm focus:ring-primary-paragraph focus:border-primary-paragraph"
                   placeholder="Mustermann"
                   color="red"
                   required
@@ -46,24 +46,24 @@ const ContactForm = () => {
               </div>
               <div>
                 <label className="block mb-2 text-sm font-medium text-primary-buttonGreen ">
-                  E-Mail
+                  E-Mail:
                 </label>
                 <input
                   type="email"
                   id="email"
-                  className="shadow-sm bg-primary-buttonGreen border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
+                  className="shadow-sm bg-primary-buttonGreen placeholder:text-primary-backgroundGreen border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-paragraph focus:border-primary-paragraph block w-full p-2.5"
                   placeholder="sabine@mustermann.de"
                   required
                 />
               </div>
               <div>
                 <label className="block mb-2 text-sm font-medium text-primary-buttonGreen ">
-                  Telefonnummer
+                  Telefonnummer:
                 </label>
                 <input
                   type="number"
                   id="phone-number"
-                  className="block p-3 w-full text-sm text-gray-900 bg-primary-buttonGreen rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500"
+                  className="block p-3 w-full text-sm text-gray-900 placeholder:text-primary-backgroundGreen bg-primary-buttonGreen rounded-lg border border-gray-300 shadow-sm focus:ring-primary-paragraph focus:border-primary-paragraph"
                   placeholder="+151 345 6789"
                   required
                 />
@@ -75,8 +75,8 @@ const ContactForm = () => {
                 <textarea
                   id="message"
                   rows={6}
-                  className="block p-2.5 w-full text-sm text-primary-backgroundGreen bg-primary-buttonGreen rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500"
-                  placeholder="Leave a comment..."
+                  className="block placeholder:text-primary-backgroundGreen p-2.5 w-full text-sm text-primary-backgroundGreen bg-primary-buttonGreen rounded-lg shadow-sm border border-gray-300 focus:ring-primary-paragraph focus:border-primary-paragraph"
+                  placeholder="Nachricht"
                 ></textarea>
                 <p className="mt-4 text-sm text-gray-500">
                   By submitting this form you agree to our{" "}
@@ -93,7 +93,7 @@ const ContactForm = () => {
               </div>
               <button
                 type="submit"
-                className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-buttonGreen sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300"
+                className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-buttonGreen sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-paragraph"
               >
                 Nachricht senden
               </button>
