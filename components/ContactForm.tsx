@@ -1,4 +1,5 @@
 import React from "react";
+import { MailTo } from "./MailTo";
 
 const ContactForm = () => {
   return (
@@ -95,7 +96,7 @@ const ContactForm = () => {
                 type="submit"
                 className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-buttonGreen sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-paragraph"
               >
-                Nachricht senden
+                <MailTo />
               </button>
             </form>
           </div>
@@ -119,7 +120,7 @@ const ContactForm = () => {
                 Kontaktinformationen:
               </p>
               <p className="text-gray-500">
-                Maria Zillner <br />
+                Maria Zillinger <br />
                 Carossastraße 1 <br />
                 94474 Vilshofen
               </p>
