@@ -1,3 +1,40 @@
+/* Kurze Anleitung zum Ändern von Texten und Bildern auf der Website:
+
+Texte:
+1. Suche den richtigen Bereich in der Datei, die für die gewünschte Unterseite zuständig ist. (in der unteren Datei finden sich Kommentare im Code für die jeweiligen Seiten z.B. "// Startseite", "// Über Mich", "// Angebote" ...)
+2. Suche den Abschnitt, den du ändern möchtest. (z.B. "Hero Section Data", "First Section Data", "Second Section Data" ...)
+3. Ändere den Text, den du ändern möchtest. (z.B. "title", "description", "firstParagraph", "secondParagraph" ...)
+4. Speichere die Datei ab.
+
+Bilder:
+1. Suche den richtigen Bereich in der Datei, die für die gewünschte Unterseite zuständig ist. (in der unteren Datei finden sich Kommentare im Code für die jeweiligen Seiten z.B. "// Startseite", "// Über Mich", "// Angebote" ...)
+2. Suche den Abschnitt, den du ändern möchtest. (z.B. "Hero Section Data", "First Section Data", "Second Section Data" ...)
+3. Ändere den Bildpfad, den du ändern möchtest. (z.B. "logo.png", "yogastudio.png" ...)
+4. Speichere die Datei ab.
+Beim Hinzufügen der Bilder muss der Bildpfad relativ zum Ordner "public" sein.
+Grundstruktur der Bildpfade: "/assets/seitenname/bildname.format" (z.B. "/assets/ueber-mich/yogastudio.png")
+
+* WICHTIG: Achte darauf ausschließlich die Texte abzuändern. Wenn "" oder '' vorhanden, UMBEDINGT STEHE LASSEN, da der Code sonst bricht.
+
+Änderungen selbstständig updaten:
+
+1. Speichere die Datei ab. (Strg + S)
+2. Gehe in die Konsole und führe den Befehl "git add ." aus.
+3. Führe den Befehl "git commit -m 'Beschreibung der Änderungen'" aus.
+4. Führe den Befehl "git push" aus.
+5. Die Änderungen sollten jetzt in ca. 5 Minuten auf der Website sichtbar sein.
+
+
+*/
+
+// ! Metadata
+// Hier kann die Meta-Beschreibung und der Titel der Website angepasst werden.
+export const metaData = {
+  title: "FIT-MIT-MARY",
+  description:
+    "Erleben Sie tiefenentspannende Yoga-Kurse in unserem professionellen Studio. Egal ob Anfänger oder Fortgeschrittener – finden Sie Balance und innere Ruhe durch individuelle Anleitungen. Besuchen Sie uns für Yoga in Künzing. Jetzt Platz reservieren!",
+};
+
 // ! NAVBAR
 export const navItems = [
   { name: "Startseite", link: "/" },

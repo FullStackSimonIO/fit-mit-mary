@@ -15,11 +15,11 @@ const Navbar = () => {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
           <Image
-            src=" /assets/logos/logo.svg"
+            src="/assets/logoGreen.png"
             className="h-8"
             alt="Logo"
-            width={32}
-            height={32}
+            width={40}
+            height={40}
           />
           <span className="self-center text-[#2D4542] text-sm lg:text-2xl  font-semibold whitespace-nowrap">
             FIT-MIT-MARY
