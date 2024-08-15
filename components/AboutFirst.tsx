@@ -9,11 +9,10 @@ const AboutFirst = () => {
       <div className="max-w-screen-xl px-4 py-32 mx-auto lg:px-6 lg:py-24">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-primary-buttonGreen sm:text-4xl ">
-            Über Mich:
+            {aboutFirst.header.title}
           </h2>
           <p className="mt-4 text-base font-normal text-gray-800 sm:text-xl ">
-            Ich konnte dein Interesse wecken?
-            <br /> Hier findest du mehr Informationen zu meinem Studio und mir.
+            {aboutFirst.header.description}
           </p>
         </div>
 
@@ -22,7 +21,7 @@ const AboutFirst = () => {
           <div className="flex flex-col lg:items-center lg:flex-row gap-y-8 sm:gap-y-12 lg:gap-x-16 xl:gap-x-24">
             <div>
               <Image
-                src="/assets/yogaraum/fit_mit_mary_raum_querformat.JPG"
+                src={aboutFirst.firstSection.imgUrl}
                 alt=""
                 width={500}
                 height={500}
@@ -36,13 +35,10 @@ const AboutFirst = () => {
                   className="text-3xl font-bold leading-tight text-primary-buttonGreen sm:text-4xl 
                 "
                 >
-                  Mein Yogastudio:
+                  {aboutFirst.firstSection.header}
                 </h3>
                 <p className="text-base font-normal text-primary-paragraph sm:text-lg ">
-                  Erleben Sie ganzheitliches Wohlbefinden in unserem Yogastudio
-                  in Künzing. Unsere erfahrenen Lehrer bieten Yoga für alle
-                  Levels an. Finden Sie innere Ruhe und körperliche Stärke.
-                  Jetzt Kurse buchen!
+                  {aboutFirst.firstSection.firstParagraph}
                 </p>
               </div>
             </div>
@@ -53,21 +49,16 @@ const AboutFirst = () => {
           <div className="w-full space-y-6 lg:max-w-lg shrink-0 xl:max-w-2xl">
             <div className="space-y-3">
               <h3 className="text-3xl font-bold leading-tight text-primary-buttonGreen sm:text-4xl ">
-                Über Mich:
+                {aboutFirst.secondSection.header}
               </h3>
-              {aboutFirst.map((item) => (
-                <p
-                  key={item.id}
-                  className="text-base font-normal text-primary-paragraph sm:text-lg "
-                >
-                  {item.text}
-                </p>
-              ))}
+              <p className="text-base font-normal text-primary-paragraph sm:text-lg ">
+                {aboutFirst.secondSection.secondParagraph}
+              </p>
             </div>
           </div>
           <div>
             <Image
-              src="/assets/IMG_6703.JPG"
+              src={aboutFirst.secondSection.imgUrl}
               alt=""
               width={500}
               height={500}
@@ -75,7 +66,7 @@ const AboutFirst = () => {
             />
           </div>
         </div>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center pt-24">
           <Button
             duration={2000}
             className="text-primary-backgroundGreen bg-primary-buttonGreen justify-center hover:bg-primary-800 inline-flex items-center  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"

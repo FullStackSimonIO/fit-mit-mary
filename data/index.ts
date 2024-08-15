@@ -27,8 +27,10 @@ Grundstruktur der Bildpfade: "/assets/seitenname/bildname.format" (z.B. "/assets
 
 */
 
+//* Hier befinden sich allgemeine Daten, die auf der Website angezeigt werden. Diese Daten können hier geändert werden.
+
 // ! Metadata
-// Hier kann die Meta-Beschreibung und der Titel der Website angepasst werden.
+// Hier kann die Meta-Beschreibung und der Titel der Website angepasst werden. (Metadata: Titel der Website und Beschreibung, die in den Suchergebnissen angezeigt wird)
 export const metaData = {
   title: "FIT-MIT-MARY",
   description:
@@ -36,6 +38,7 @@ export const metaData = {
 };
 
 // ! NAVBAR
+// Hier werden die Begriffe gerendert, die in der Navigationsleiste angezeigt werden.
 export const navItems = [
   { name: "Startseite", link: "/" },
   { name: "Über Mich", link: "/ueber-mich" },
@@ -43,29 +46,37 @@ export const navItems = [
   { name: "Kurse", link: "/kurse" },
 ];
 
-// ! HOMEPAGE
+// * Homepage
 
-// Hero Section Data
+// ! HERO SECTION
+// Erster Bereich auf der Startseite
 export const name = "FIT-MIT-MARY";
 export const description =
   "Gesundheit und Wohlbefinden durch Bewegung und Ernährung";
 
-// First Section Data
-export const homeFirst = [
+// ! Info Section
+// Zweiter Bereich auf der Startseite
+export const infoData = [
   {
     id: 1,
-    title: "PIMMEL",
+    title: "Yoga & Sporttherapie", // Überschrift des Abschnitts
     firstParagraph:
       "Yoga und Sporttherapie bieten eine ganzheitliche Methode, Körper und Geist in Einklang zu bringen. Yoga, eine jahrtausendealte Praxis, vereint körperliche Übungen, Atemtechniken und Meditation, um Flexibilität, Kraft und innere Ruhe zu fördern. Sporttherapie ergänzt diese Ansätze durch gezielte Bewegungsprogramme, die auf individuelle gesundheitliche Bedürfnisse abgestimmt sind. Zusammen können Yoga und Sporttherapie helfen, Stress abzubauen, Verletzungen zu rehabilitieren und die allgemeine körperliche Fitness zu verbessern.",
     secondParagraph:
       "Diese Kombination unterstützt nicht nur die physische Gesundheit, sondern fördert auch das mentale Wohlbefinden, indem sie Achtsamkeit und Entspannung in den Alltag integriert.",
-    firstImg: "/assets/3.JPG",
-    secondImg: "/assets/1.JPG",
+    firstImgUrl: "/assets/startseite/buddha_auf_fensterbrett_hochformat.JPG",
+    firstImgAlt: "Buddha auf Fensterbrett",
+    secondImgUrl: "/assets/startseite/buddha_kerze_anzuenden_hochformat.JPG",
+    secondImgAlt: "Buddha Kerze anzünden",
   },
 ];
 
-// Second Section Data
-export const homeSecond = [
+// ! Landing Offers
+// Dritter Bereich auf der Startseite
+
+export const landingOffersHeader = "Für jeden etwas dabei";
+
+export const landingOffersData = [
   {
     id: 1,
     title: "Ernährungsberatung",
@@ -99,18 +110,34 @@ export const parallaxImages = [
   "/assets/yogaraum/Yogaraum_Hochformat_1.JPG",
 ];
 
-// ! ABOUT PAGE
+// * Über-Mich Seite
 
-export const aboutFirst = [
-  {
-    id: 1,
-    text: "Mein Name ist Mary und ich arbeite als Sporttherapeutin in einer Rehaklinik. Es erfüllt mich mit Freude, Menschen auf ihrem Weg zur Genesung und Gesundheit zu unterstützen. Mein lang gehegter Traum ist es, ein eigenes Yogastudio zu führen, in dem ich meine Kenntnisse und Erfahrungen mit euch teilen kann.",
+// ! AboutFirst Section
+// Erster Bereich auf der Über-Mich Seite
+export const aboutFirst = {
+  header: {
+    title: "Über Mich:",
+    description:
+      "Ich konnte dein Interesse wecken? Hier findest du mehr Informationen zu meinem Studio und mir.",
   },
-  {
-    id: 2,
-    text: "Mein Ziel ist es, euch zu einem Leben mit mehr Spaß, Leichtigkeit und Lebensfreude sowie einem besseren Körpergefühl zu verhelfen. Ich freue mich darauf, euch auf eurem Weg zu begleiten und gemeinsam an eurem Wohlbefinden zu arbeiten.",
+  firstSection: {
+    header: "Wer bin ich?",
+    firstParagraph:
+      "Mein Name ist Mary und ich arbeite als Sporttherapeutin in einer Rehaklinik. Es erfüllt mich mit Freude, Menschen auf ihrem Weg zur Genesung und Gesundheit zu unterstützen. Mein lang gehegter Traum ist es, ein eigenes Yogastudio zu führen, in dem ich meine Kenntnisse und Erfahrungen mit euch teilen kann.",
+    imgUrl: "/assets/ueber-mich/yogastudio.jpg",
   },
-];
+  secondSection: {
+    header: "Mein Yogastudio:",
+    secondParagraph:
+      "Mein Ziel ist es, euch zu einem Leben mit mehr Spaß, Leichtigkeit und Lebensfreude sowie einem besseren Körpergefühl zu verhelfen. Ich freue mich darauf, euch auf eurem Weg zu begleiten und gemeinsam an eurem Wohlbefinden zu arbeiten.",
+    imgUrl: "/assets/ueber-mich/kissen.jpg",
+  },
+  thirdSection: {
+    header: {},
+    thirdParagraph:
+      "Teilnahme an einem Yogakurs bietet zahlreiche Vorteile: Verbesserung der Flexibilität, Stärkung der Muskulatur und Förderung der inneren Ruhe. Reduzieren Sie Stress, steigern Sie Ihre Konzentration und fördern Sie das allgemeine Wohlbefinden. Geeignet für alle Altersgruppen, bringt Yoga Körper und Geist in Einklang. Jetzt ausprobieren!",
+  },
+};
 
 export const aboutSecond = [
   {
