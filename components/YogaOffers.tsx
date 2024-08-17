@@ -21,7 +21,7 @@ const YogaOffers = () => {
           </div>
           <div className="grid gap-8 mb-8 xl:grid-cols-3">
             {/* PRICING CARD START*/}
-            {yogaOffers.map((offer) => (
+            {yogaOffers.offers.map((offer) => (
               <div
                 key={offer.id}
                 className="rounded-[22px] max-w-sm p-4 sm:p-10 text-primary-backgroundGreen bg-primary-buttonGreen "
