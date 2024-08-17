@@ -55,14 +55,9 @@ const YogaTypes = () => {
               <h3 className="text-3xl font-bold leading-tight text-primary-buttonGreen sm:text-4xl ">
                 Über Mich:
               </h3>
-              {aboutFirst.map((item) => (
-                <p
-                  key={item.id}
-                  className="text-base font-normal text-primary-paragraph sm:text-lg "
-                >
-                  {item.text}
-                </p>
-              ))}
+              <p className="text-base font-normal text-primary-paragraph sm:text-lg ">
+                {aboutFirst.firstSection.firstParagraph}
+              </p>
             </div>
           </div>
           <div>
