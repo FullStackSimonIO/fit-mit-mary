@@ -30,17 +30,17 @@ const Footer = () => {
               </h2>
               <ul className="text-gray-50 font-medium">
                 <li className="mb-2">
-                  <a href="#" className="hover:underline">
+                  <a href="/ueber-mich" className="hover:underline">
                     Über Mich
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a href="#" className="hover:underline">
+                  <a href="/angebote" className="hover:underline">
                     Angebote
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a href="#" className="hover:underline">
+                  <a href="/kurse" className="hover:underline">
                     Kursübersicht
                   </a>
                 </li>
@@ -74,17 +74,23 @@ const Footer = () => {
               </h2>
               <ul className="text-gray-50 font-medium">
                 <li className="mb-2">
-                  <a href="#" className="hover:underline">
+                  <a
+                    href="https://www.facebook.com/maria.zillinger"
+                    className="hover:underline"
+                  >
                     Facebook
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a href="#" className="hover:underline">
+                  <a
+                    href="https://www.instagram.com/fitmitmaryz"
+                    className="hover:underline"
+                  >
                     Instagram
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a href="#" className="hover:underline">
+                  <a href="/kontakt" className="hover:underline">
                     Kontakt
                   </a>
                 </li>
@@ -103,14 +109,14 @@ const Footer = () => {
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
             <a
-              href="#"
+              href="https://www.instagram.com/fitmitmaryz/"
               className="text-gray-50 hover:text-gray-900 dark:hover:text-white ms-5"
             >
               <FaInstagram className="w-5 h-5 " />
               <span className="sr-only">Instagram</span>
             </a>
             <a
-              href="#"
+              href="https://www.facebook.com/maria.zillinger"
               className="text-gray-50 hover:text-gray-900 dark:hover:text-white ms-5"
             >
               <FaFacebook className="w-5 h-5" />

@@ -22,7 +22,7 @@ const AboutFirst = () => {
             <div>
               <Image
                 src={aboutFirst.firstSection.imgUrl}
-                alt=""
+                alt="Image"
                 width={500}
                 height={500}
                 className="object-cover w-full rounded-lg shadow-lg border-4 border-primary-buttonGreen"
@@ -59,7 +59,7 @@ const AboutFirst = () => {
           <div>
             <Image
               src={aboutFirst.secondSection.imgUrl}
-              alt=""
+              alt="img"
               width={500}
               height={500}
               className="object-cover w-full rounded-lg shadow-lg border-4  border-primary-buttonGreen"
