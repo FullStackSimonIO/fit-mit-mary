@@ -98,16 +98,17 @@ export const landingOffersData = [
 ];
 
 // Parallax Scroll Animation Images
+// Bild in "public/assets/startseite" ablegen und den Pfad hier eintragen
 export const parallaxImages = [
-  "/assets/startseite/2.JPG",
-  "/assets/startseite/7.JPG ",
+  "/assets/startseite/1.JPG",
+  "/assets/startseite/2.JPG ",
+  "/assets/startseite/3.JPG",
+  "/assets/startseite/4.JPG",
+  "/assets/startseite/5.JPG",
+  "/assets/startseite/6.JPG",
+  "/assets/startseite/7.JPG",
+  "/assets/startseite/8.JPG",
   "/assets/startseite/9.JPG",
-  "/assets/startseite/Buddha_auf_Fensterbrett_Hochformat.JPG",
-  "/assets/startseite/Buddha_Kerze_anzuenden_Hochformat.JPG",
-  "/assets/startseite/fit_mit_mary_raum_querformat.JPG",
-  "/assets/startseite/HeiligerKral.JPG",
-  "/assets/startseite/IMG_6546.JPG",
-  "/assets/startseite/KissenVorFenster.JPG",
 ];
 
 // * Über-Mich Seite
