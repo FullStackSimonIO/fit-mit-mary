@@ -1,9 +1,6 @@
 "use client";
 import React from "react";
 import { yogaOffers } from "@/data";
-import { BackgroundBeams } from "./ui/background-beam";
-import { BackgroundGradient } from "./ui/background-gradient";
-import { Vortex } from "./ui/vortex";
 
 const YogaOffers = () => {
   return (
@@ -12,11 +9,10 @@ const YogaOffers = () => {
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
           <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-primary-buttonGreen ">
-              Aktuelle Yoga Angebote€
+              {yogaOffers.header.title}
             </h2>
             <p className="mb-5 font-light text-gray-500 sm:text-xl ">
-              Here at Flowbite we focus on markets where technology, innovation,
-              and capital can unlock long-term value and drive economic growth.
+              {yogaOffers.header.description}
             </p>
           </div>
           <div className="grid gap-8 mb-8 xl:grid-cols-3">
@@ -32,7 +28,7 @@ const YogaOffers = () => {
                 </p>
                 <div className="flex justify-center items-baseline my-8">
                   <span className="mr-2 text-5xl font-extrabold">{`€${offer.price}`}</span>
-                  <span className="text-primary-backgroundGreen">/month</span>
+                  <span className="text-primary-backgroundGreen">/Kurs</span>
                 </div>
 
                 {/* List */}
@@ -51,7 +47,7 @@ const YogaOffers = () => {
                         clip-rule="evenodd"
                       ></path>
                     </svg>
-                    <span>Individual configuration</span>
+                    <span>Test</span>
                   </li>
                   <li className="flex items-center space-x-3">
                     <svg

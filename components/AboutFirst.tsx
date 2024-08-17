@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { Button } from "./ui/moving-border";
-import { aboutFirst } from "@/data";
+import { aboutFirst, aboutSecond } from "@/data";
 
 const AboutFirst = () => {
   return (
@@ -66,6 +66,35 @@ const AboutFirst = () => {
             />
           </div>
         </div>
+
+        <div className="mt-12 space-y-16 sm:mt-16">
+          <div className="flex flex-col lg:items-center lg:flex-row gap-y-8 sm:gap-y-12 lg:gap-x-16 xl:gap-x-24">
+            <div>
+              <Image
+                src={aboutFirst.thirdSection.imgUrl}
+                alt="Image"
+                width={500}
+                height={500}
+                className="object-cover w-full rounded-lg shadow-lg border-4 border-primary-buttonGreen"
+              />
+            </div>
+
+            <div className="w-full space-y-6 lg:max-w-lg shrink-0 xl:max-w-2xl">
+              <div className="space-y-3">
+                <h3
+                  className="text-3xl font-bold leading-tight text-primary-buttonGreen sm:text-4xl 
+                "
+                >
+                  {aboutFirst.thirdSection.header}
+                </h3>
+                <p className="text-base font-normal text-primary-paragraph sm:text-lg ">
+                  {aboutFirst.thirdSection.thirdParagraph}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="flex items-center justify-center pt-24">
           <Button
             duration={2000}

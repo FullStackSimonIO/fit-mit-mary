@@ -52,7 +52,7 @@ export const navItems = [
 // Erster Bereich auf der Startseite
 export const name = "FIT-MIT-MARY";
 export const description =
-  "Gesundheit und Wohlbefinden durch Bewegung und Ernährung";
+  "Erleben Sie tiefenentspannende Yoga-Kurse in unserem professionellen Studio. Egal ob Anfänger oder Fortgeschrittener – finden Sie Balance und innere Ruhe durch individuelle Anleitungen. Besuchen Sie uns für Yoga in Künzing. Jetzt Platz reservieren!";
 
 // ! Info Section
 // Zweiter Bereich auf der Startseite
@@ -124,7 +124,7 @@ export const aboutFirst = {
     header: "Wer bin ich?",
     firstParagraph:
       "Mein Name ist Mary und ich arbeite als Sporttherapeutin in einer Rehaklinik. Es erfüllt mich mit Freude, Menschen auf ihrem Weg zur Genesung und Gesundheit zu unterstützen. Mein lang gehegter Traum ist es, ein eigenes Yogastudio zu führen, in dem ich meine Kenntnisse und Erfahrungen mit euch teilen kann.",
-    imgUrl: "/assets/Yogaraum1.JPG",
+    imgUrl: "/assets/ueber-mich/yogastudio.jpg",
   },
   secondSection: {
     header: "Mein Yogastudio:",
@@ -133,9 +133,10 @@ export const aboutFirst = {
     imgUrl: "/assets/ueber-mich/kissen.jpg",
   },
   thirdSection: {
-    header: {},
+    header: "Header",
     thirdParagraph:
       "Teilnahme an einem Yogakurs bietet zahlreiche Vorteile: Verbesserung der Flexibilität, Stärkung der Muskulatur und Förderung der inneren Ruhe. Reduzieren Sie Stress, steigern Sie Ihre Konzentration und fördern Sie das allgemeine Wohlbefinden. Geeignet für alle Altersgruppen, bringt Yoga Körper und Geist in Einklang. Jetzt ausprobieren!",
+    imgUrl: "/assets/ueber-mich/kissen.jpg",
   },
 };
 
@@ -174,15 +175,16 @@ export const yogaOffers = {
       imgAlt: "Yoga",
       description:
         "Perfekt, wenn du noch nie Yoga praktiziert hast. Hier bringe ich dir die Grundlagen bei.",
-      price: 120,
+      price: "120,00",
     },
     {
       id: 2,
       title: "YOGA - 8x 90 Minuten",
       imgUrl: "",
       imgAlt: "Yoga",
-      description: "Für Fortgeschrittene, die ihre Praxis vertiefen möchten.",
-      price: 144,
+      description:
+        "Für Fortgeschrittene, die ihre Praxis vertiefen möchten. Ideal für alle, die regelmäßig Yoga praktizieren.",
+      price: "144,00",
     },
     {
       id: 3,
@@ -191,7 +193,11 @@ export const yogaOffers = {
       imgAlt: "Yoga",
       description:
         "Ideal für alle, die regelmäßig Yoga praktizieren und ihre Praxis intensivieren möchten.",
-      price: 85,
+      price: "85,00",
     },
   ],
+};
+
+export const yogaTypes = {
+  yingYoga: {},
 };
