@@ -62,7 +62,7 @@ const AboutFirst = () => {
               alt=""
               width={500}
               height={500}
-              className="object-cover w-full rounded-lg shadow-lg border-4 border-primary-buttonGreen"
+              className="object-cover w-full rounded-lg shadow-lg border-4  border-primary-buttonGreen"
             />
           </div>
         </div>

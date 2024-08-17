@@ -12,11 +12,11 @@ const Footer = () => {
           <div className="mb-6 md:mb-0">
             <a href="#" className="flex items-center">
               <Image
-                src=""
+                src="/assets/logos/LogoNoTextWhite.png"
                 className="h-8 me-3"
                 alt="Logo"
-                width={32}
-                height={32}
+                width={40}
+                height={48}
               />
               <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
                 FIT-MIT-MARIA

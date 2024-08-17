@@ -99,15 +99,15 @@ export const landingOffersData = [
 
 // Parallax Scroll Animation Images
 export const parallaxImages = [
-  "/assets/yogaraum/Buddha_auf_Fensterbrett_Hochformat.JPG",
-  "/assets/yogaraum/Buddha_Hochformat.JPG",
-  "/assets/yogaraum/Buddha_Kerze_anzuenden_Hochformat.JPG",
-  "/assets/yogaraum/fit_mit_mary_raum_querformat.JPG",
-  "/assets/yogaraum/HeiligerKral.JPG",
-  "/assets/yogaraum/IMG_6546.JPG",
-  "/assets/yogaraum/KissenVorFenster.JPG",
-  "/assets/yogaraum/PflanzeAufFenster.JPG",
-  "/assets/yogaraum/Yogaraum_Hochformat_1.JPG",
+  "/assets/startseite/2.JPG",
+  "/assets/startseite/7.JPG ",
+  "/assets/startseite/9.JPG",
+  "/assets/startseite/Buddha_auf_Fensterbrett_Hochformat.JPG",
+  "/assets/startseite/Buddha_Kerze_anzuenden_Hochformat.JPG",
+  "/assets/startseite/fit_mit_mary_raum_querformat.JPG",
+  "/assets/startseite/HeiligerKral.JPG",
+  "/assets/startseite/IMG_6546.JPG",
+  "/assets/startseite/KissenVorFenster.JPG",
 ];
 
 // * Über-Mich Seite
@@ -157,27 +157,41 @@ export const aboutSecond = [
   },
 ];
 
-// ! OFFERS PAGE
+// * Angebote Seite
 
-export const yogaOffers = [
-  {
-    id: 1,
-    title: "YOGA - 8x 75 Minuten",
-    description:
-      "Perfekt, wenn du noch nie Yoga praktiziert hast. Hier bringe ich dir die Grundlagen bei.",
-    price: 120,
+// ! YogaOffers Sectio
+
+export const yogaOffers = {
+  header: {
+    title: "Aktuelle Yoga Angebote",
+    description: "Hier findest du unsere aktuellen Yoga Angebote:",
   },
-  {
-    id: 2,
-    title: "YOGA - 8x 90 Minuten",
-    description: "Für Fortgeschrittene, die ihre Praxis vertiefen möchten.",
-    price: 144,
-  },
-  {
-    id: 3,
-    title: "PRIVATE YOGASTUNDE",
-    description:
-      "Ideal für alle, die regelmäßig Yoga praktizieren und ihre Praxis intensivieren möchten.",
-    price: 85,
-  },
-];
+  offers: [
+    {
+      id: 1,
+      title: "YOGA - 8x 75 Minuten",
+      imgUrl: "",
+      imgAlt: "Yoga",
+      description:
+        "Perfekt, wenn du noch nie Yoga praktiziert hast. Hier bringe ich dir die Grundlagen bei.",
+      price: 120,
+    },
+    {
+      id: 2,
+      title: "YOGA - 8x 90 Minuten",
+      imgUrl: "",
+      imgAlt: "Yoga",
+      description: "Für Fortgeschrittene, die ihre Praxis vertiefen möchten.",
+      price: 144,
+    },
+    {
+      id: 3,
+      title: "PRIVATE YOGASTUNDE",
+      imgUrl: "",
+      imgAlt: "Yoga",
+      description:
+        "Ideal für alle, die regelmäßig Yoga praktizieren und ihre Praxis intensivieren möchten.",
+      price: 85,
+    },
+  ],
+};

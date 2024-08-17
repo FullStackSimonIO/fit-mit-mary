@@ -15,14 +15,14 @@ const Info = () => {
         </div>
         <div className="grid grid-cols-2 gap-4 mt-8">
           <Image
-            className="w-full rounded-lg"
+            className="w-full rounded-lg border-4 border-primary-buttonGreen"
             src={infoData[0].firstImgUrl}
             alt={infoData[0].firstImgAlt}
             width={100}
             height={100}
           />
           <Image
-            className="mt-4 w-full lg:mt-10 rounded-lg"
+            className="mt-4 w-full lg:mt-10 rounded-lg border-4 border-primary-buttonGreen"
             src={infoData[0].secondImgUrl}
             alt={infoData[0].secondImgAlt}
             width={100}
